@@ -1,0 +1,10 @@
+/* styles for printing */
+@media print {
+    body * {
+        display: none !important;
+    }
+    
+    .modal {
+        display: block !important;
+    }
+}
